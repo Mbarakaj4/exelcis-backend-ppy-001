@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "casique-api"
+version = "0.1.0"
+description = "Api dedicada a manejar los contenidos logicos de casique-software"
+authors = ["Julio David Benitez Rios <113691935+Mbarakaj4@users.noreply.github.com>"]
+license = "LICENSE"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.0.6"
+psycopg2 = "^2.9.9"
+pytest = "^8.2.0"
+python-decouple = "^3.8"
+django-rest-framework = "^0.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
